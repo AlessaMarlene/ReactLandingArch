@@ -1,6 +1,8 @@
+import './Contacttitle.css';
+
 const Contacttitle = () => {
     return (
-        <h1>Contact</h1>
+        <h1 className="contactTitle">Contact</h1>
     );
 }
 

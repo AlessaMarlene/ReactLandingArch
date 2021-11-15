@@ -1,8 +1,9 @@
 import Linktopage from '../../LinkToPage/Linktopage';
+import './Footerlinks.css';
 
 const Footerlinks = () => {
     return(
-        <ul>
+        <ul className="footerLinks">
             <li>
                 <Linktopage path='/portfolio' text='Portfolio'/>
             </li>

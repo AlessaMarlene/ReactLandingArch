@@ -1,0 +1,11 @@
+.footerLinks{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    width: 38%;
+}
+
+.footerLinks > *{
+    display: flex;
+    align-items: center;
+}

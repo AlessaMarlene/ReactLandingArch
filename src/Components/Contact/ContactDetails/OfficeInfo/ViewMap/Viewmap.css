@@ -1,0 +1,9 @@
+.viewMapButton{
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

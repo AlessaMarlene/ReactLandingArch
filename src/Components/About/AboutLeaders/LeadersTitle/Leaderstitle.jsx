@@ -1,7 +1,10 @@
+import './Leaderstitle.css';
+
 const Leaderstitle = () => {
     return (
-        <h2>The
-        Leaders</h2>
+        <div className="leadersTitle">
+            <h2>The Leaders</h2>
+        </div>
     );
 }
 

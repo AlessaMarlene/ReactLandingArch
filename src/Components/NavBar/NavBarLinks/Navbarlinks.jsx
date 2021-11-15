@@ -1,8 +1,9 @@
 import Linktopage from '../../LinkToPage/Linktopage';
+import './Navbarlinks.css';
 
-const Menulinks = () => {
+const Navbarlinks = () => {
     return(
-        <ul>
+        <ul className="navLinks">
             <li>
                 <Linktopage path='/portfolio' text='Portfolio'/>
             </li>
@@ -16,4 +17,4 @@ const Menulinks = () => {
     );
 }
 
-export default Menulinks;
+export default Navbarlinks;

@@ -2,17 +2,23 @@ import hero from '../../../assets/About/Desktop/image-hero.jpg';
 import Abouttitle from './AboutTitle/Abouttitle';
 import Aboutsecondtitle from './AboutSecondTitle/Aboutsecondtitle';
 import Resumecontent from './ResumeContent/Resumecontent';
+import './Aboutresume.css';
 
 const Aboutresume = () => {
     return (
-       <section style={{backgroundImage:hero}}>
-           <div>
-               <Abouttitle/>
-               <p></p>
-               <Aboutsecondtitle/>
-               <Resumecontent/>
-           </div>
-       </section>
+        <section className="aboutResume">
+            <div className="aboutResumeBackground" >
+                <div className="aboutBackImage" style={{backgroundImage:`url(${hero})`}}></div>
+                <div className="whiteSide">
+                    <Abouttitle/>
+                </div>
+            </div>
+            <div className="aboutResumeContent">
+                    <p></p>
+                    <Aboutsecondtitle/>
+                    <Resumecontent/>
+            </div>
+        </section>
     );
 }
 

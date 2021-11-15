@@ -1,0 +1,11 @@
+.secondTitle{
+    width: 50%;
+    line-height: 1.1em;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 1000px){
+    .secondTitle{
+        padding-bottom: 40px;
+    }
+}

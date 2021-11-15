@@ -1,0 +1,11 @@
+.navLinks{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.navLinks > li{
+    display: flex;
+    align-items: center;
+}

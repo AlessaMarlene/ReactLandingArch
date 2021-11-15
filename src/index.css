@@ -20,3 +20,36 @@ code {
   font-family: var(--font);
   line-height: 1.8;
 }
+
+li{
+  list-style: none;
+}
+
+a{
+  color: var(--medium-grey);
+  text-decoration: none;
+}
+
+h2{
+  font-size: 2em;
+}
+
+h1{
+  color: var(--very-light-grey);
+  font-size: 10em;
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px){
+  h2{
+    font-size: 3em;
+  }
+  h1{
+    line-height: 1em;
+  }
+}

@@ -1,0 +1,22 @@
+.welcomeSection{
+    height: 80vh;
+    display: flex;
+    margin: 9.5em 0;
+}
+
+.welcomeSection > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 13% 0 15%;
+    position: relative;
+}
+
+@media(max-width: 1000px){
+    .welcomeSection > div{
+        padding: 0;
+    }
+    .welcomeSection > img{
+        display: none;
+    }
+}

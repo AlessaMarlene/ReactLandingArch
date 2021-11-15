@@ -1,0 +1,53 @@
+.aboutResume{
+    height: 100vh;
+    position: relative;
+}
+
+.aboutResumeBackground{
+    display: flex;
+    height: 100%;
+}
+
+.aboutBackImage{
+    flex: 1 1 60%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+}
+
+.aboutBackImage::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .50);
+}
+
+.whiteSide{
+    flex: 1 1 40%;
+    position: relative;
+}
+
+.aboutResumeContent{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 15%;
+    box-sizing: border-box;
+}
+
+.aboutResumeContent > p:first-of-type{
+    width: 50px;
+    height: 5px;
+    background-color: var(--very-light-grey);
+    margin-bottom: 70px;
+    border-radius: 5px;
+}

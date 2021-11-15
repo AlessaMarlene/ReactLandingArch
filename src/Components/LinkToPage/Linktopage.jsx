@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
+import './Linktopage.css';
 
 const Linktopage = ({path, text}) => {
     return(
         <Link to={path}>
-            <p>{text}</p>
+            <h4 className="linkText">{text}</h4>
         </Link>
     );
 }

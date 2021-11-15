@@ -1,0 +1,17 @@
+.leaderInfo{
+    width: 48%;
+}
+
+.leaderInfo img{
+    margin-bottom: 20px;
+}
+
+.leaderInfo p{
+    padding-bottom: 8px;
+}
+
+.socialIcons{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}

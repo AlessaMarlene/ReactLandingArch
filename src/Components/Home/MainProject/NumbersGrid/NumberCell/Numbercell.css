@@ -1,0 +1,8 @@
+.numberCell{
+    padding: 20px 28px;
+    background-color: white;
+}
+
+.numberCell h4{
+    color: var(--medium-grey);
+}

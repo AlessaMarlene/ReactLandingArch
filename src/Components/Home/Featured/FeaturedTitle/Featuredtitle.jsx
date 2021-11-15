@@ -1,6 +1,8 @@
+import './Featuredtitle.css';
+
 const Featuredtitle = () => {
     return (
-        <h2>Featured</h2>
+        <h2 className="featuredTitle">Featured</h2>
     );
 }
 

@@ -1,11 +1,12 @@
-import whiteArrow from '../../../../assets/icons/white_arrow.png';
+import whiteArrow from '../../../../assets/icons/white_arrow.svg';
+import './Connectform.css';
 
 const Connectform = () => {
     return (
-        <form>
+        <form className="connectForm">
             <input type="text" placeholder="Name"/>
             <input type="text" placeholder="Email"/>
-            <input type="text" placeholder="Message"/>
+            <textarea type="text" placeholder="Message"/>
             <button><img alt="arrow" src={whiteArrow}/></button>
         </form>
     );

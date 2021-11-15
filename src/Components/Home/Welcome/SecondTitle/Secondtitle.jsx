@@ -1,7 +1,8 @@
+import './Secondtitle.css';
+
 const Secondtitle = () => {
     return(
-        <h2>Welcome to
-        Arch Studio</h2>
+        <h2 className="secondTitle">Welcome to Arch Studio</h2>
     );
 }
 

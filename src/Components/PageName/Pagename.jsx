@@ -1,6 +1,8 @@
+import './Pagename.css';
+
 const Pagename = ({name}) => {
     return(
-        <div>
+        <div className="pageName">
             <div></div>
             <p>{name}</p>
         </div>

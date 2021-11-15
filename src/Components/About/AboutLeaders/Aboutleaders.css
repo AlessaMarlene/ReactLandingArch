@@ -1,0 +1,12 @@
+.aboutLeaders{
+    display: flex;
+    padding-bottom: 7em;
+}
+
+.leadersList{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 60px;
+}

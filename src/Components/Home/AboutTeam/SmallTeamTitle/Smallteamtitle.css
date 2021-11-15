@@ -1,0 +1,12 @@
+.smallTeam{
+    color: white;
+    width: 30%;
+    line-height: 1em;
+    padding-bottom: 25px;
+}
+
+@media(max-width: 1000px){
+    .smallTeam{
+        width: 60%;
+    }
+}

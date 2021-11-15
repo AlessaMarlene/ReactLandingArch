@@ -1,0 +1,12 @@
+.bannerTitle{
+    width: 40%;
+    font-size: 4.5em;
+    line-height: 1em;
+}
+
+@media (max-width: 1000px){
+    .bannerTitle{
+        width: 100%;
+        font-size: 5em;
+    }
+}

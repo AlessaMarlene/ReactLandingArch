@@ -1,12 +1,13 @@
 import Leaderstitle from "./LeadersTitle/Leaderstitle";
 import leaders from "../../../data/leaders";
 import Leaderinfo from './LeaderInfo/Leaderinfo';
+import './Aboutleaders.css';
 
 const Aboutleaders = () => {
     return (
-       <section>
+       <section className="aboutLeaders">
            <Leaderstitle/>
-           <div>
+           <div className="leadersList">
                 {leaders.map((leader) => <Leaderinfo leader={leader}/>)}
            </div>
        </section>

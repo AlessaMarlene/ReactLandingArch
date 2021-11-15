@@ -1,0 +1,11 @@
+.welcomeContent{
+    font-size: 0.8em;
+    color: var(--medium-grey);
+    font-weight: 600;
+}
+
+@media (max-width: 1000){
+    .welcomeContent{
+        font-size: 1em;
+    }
+}

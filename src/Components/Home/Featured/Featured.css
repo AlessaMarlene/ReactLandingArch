@@ -1,0 +1,33 @@
+.featured{
+    margin: 9.5em 0;
+    height: 100vh;
+}
+
+.featured > div:first-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured > div:last-child{
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+}
+
+.featured > div:last-child > *{
+    width: 30%;
+}
+
+@media (max-width: 1000px){
+    .featured{
+        height: auto;
+    }
+    .featured > div:last-child{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .featured > div:last-child > *{
+        width: 100%;
+    }
+}

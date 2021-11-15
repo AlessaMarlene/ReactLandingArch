@@ -1,7 +1,8 @@
+import './Heritagetitle.css';
+
 const Heritagetitle = () => {
     return (
-        <h2>Our
-        Heritage</h2>
+        <h2 className="heritageTitle">Our Heritage</h2>
     );
 }
 

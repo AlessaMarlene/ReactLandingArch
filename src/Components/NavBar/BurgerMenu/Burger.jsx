@@ -1,8 +1,9 @@
 import burger from '../../../assets/icons/icon-hamburger.svg';
+import './Burger.css';
 
 const Burger = ({handleClick}) => {
     return (
-        <div onClick={() => handleClick()}>
+        <div className="burger" onClick={() => handleClick()}>
             <img alt="burger" src={burger}/>
         </div>
     );

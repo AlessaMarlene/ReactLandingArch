@@ -1,0 +1,11 @@
+.mainTitle{
+    position: absolute;
+    top: -120px;
+    left: 30px;
+}
+
+@media(max-width: 1000px){
+    .mainTitle{
+        position: static;
+    }
+}

@@ -1,6 +1,6 @@
 import Pagename from "../PageName/Pagename";
 import Mainproject from "./MainProject/Mainproject";
-import Welcome from "./Welcome/Welcome";
+import Welcome from "./Welcome/Welcomesection";
 import Aboutteam from "./AboutTeam/Aboutteam";
 import Featured from "./Featured/Featured";
 

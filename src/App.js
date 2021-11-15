@@ -13,7 +13,7 @@ function App() {
         <div className="contentWrapper">
             <Navbar/>
             <Routes>
-                <Route exact path='/' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route element={<Portfolio/>} path='/portfolio'/>
                 <Route element={<About/>} path='/about'/>
                 <Route element={<Contact/>} path='/contact'/>

@@ -1,0 +1,22 @@
+.officeInfo{
+    width: 50%;
+}
+
+.officeInfoItems{
+    display: flex;
+    font-size: 0.9em;
+    padding: 30px 0 40px 0;
+}
+
+.officeInfoItems > div:first-child > p:not(:first-of-type), 
+.officeInfoItems > div:last-child > p:not(:first-of-type){
+    padding-top: 10px;
+}
+
+.officeInfoItems > div:first-child{
+    flex: 1 1 30%;
+}
+
+.officeInfoItems > div:last-child{
+    flex: 1 1 70%;
+}

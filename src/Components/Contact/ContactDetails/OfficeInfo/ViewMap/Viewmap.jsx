@@ -1,8 +1,9 @@
 import blackArrow from '../../../../../assets/icons/black__arrow.png';
+import './Viewmap.css';
 
 const Viewmap = () => {
     return (
-        <button>View on Map<img alt="arrow" src={blackArrow} /></button>
+        <button className="viewMapButton">View on Map<img alt="arrow" src={blackArrow} /></button>
     );
 };
 

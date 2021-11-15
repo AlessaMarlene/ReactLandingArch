@@ -1,0 +1,18 @@
+.heritage{
+    display: flex;
+    margin: 9.5em 0;
+}
+
+.heritageInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.heritageInfo > p:first-of-type{
+    width: 50px;
+    height: 5px;
+    background-color: var(--very-light-grey);
+    margin-bottom: 80px;
+    border-radius: 5px;
+}

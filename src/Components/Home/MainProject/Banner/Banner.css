@@ -1,0 +1,16 @@
+.banner{
+    height: 110vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+}
+
+@media (max-width: 1000px){
+    .banner{
+        padding-left: 10%;
+    }
+}

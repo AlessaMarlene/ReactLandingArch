@@ -1,0 +1,8 @@
+.leadersTitle{
+    width: 30%;
+}
+
+.leadersTitle > h2{
+    width: 50%;
+    line-height: 1em;
+}

@@ -6,8 +6,8 @@ import Connect from "./Connect/Connect";
 const Contact = () => {
     return (
         <>
-            <Pagename name='Contact'/>
-            <main>
+            <Pagename name='CONTACT'/>
+            <main className="contact">
                 <Contactresume/>
                 <Contactdetails/>
                 <Connect/>

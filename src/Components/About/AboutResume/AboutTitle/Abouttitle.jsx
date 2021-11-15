@@ -1,6 +1,8 @@
+import './Abouttitle.css';
+
 const Abouttitle = () => {
     return (
-        <h1>About</h1>
+        <h1 className="aboutTitle">About</h1>
     );
 }
 

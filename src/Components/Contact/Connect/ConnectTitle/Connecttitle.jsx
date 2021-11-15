@@ -1,7 +1,10 @@
+import './Connecttitle.css';
+
 const Connecttitle = () => {
     return (
-        <h2>Connect
-        with us</h2>
+        <div className="connectTitle">
+            <h2>Connect with us</h2>
+        </div>
     );
 }
 

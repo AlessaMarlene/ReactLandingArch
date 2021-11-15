@@ -2,6 +2,7 @@ import Featuredtitle from "./FeaturedTitle/Featuredtitle";
 import Commonlink from "../CommonLink/Commonlink";
 import Featureditem from "./FeaturedItem/Featureditem";
 import projects from "../../../data/projects";
+import './Featured.css';
 
 const Featured = () => {
     const items = projects.reduce((previous, current) => {
@@ -13,7 +14,7 @@ const Featured = () => {
     }, []);
 
     return (
-        <section>
+        <section className="featured">
             <div>
                 <Featuredtitle/>
                 <Commonlink text="See All" pageName="/portfolio"/>

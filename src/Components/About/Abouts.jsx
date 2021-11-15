@@ -6,7 +6,7 @@ import Aboutleaders from "./AboutLeaders/Aboutleaders";
 const Aboutus = () => {
     return (
         <>
-            <Pagename name='About Us'/>
+            <Pagename name='ABOUT US'/>
             <main>
                 <Aboutresume/>
                 <Heritage/>

@@ -1,7 +1,8 @@
+import './Detailstitle.css';
+
 const Detailstitle = () => {
     return (
-        <h1>Contact
-         Details</h1>
+        <h2 className="detailsTitle">Contact Details</h2>
     );
 }
 

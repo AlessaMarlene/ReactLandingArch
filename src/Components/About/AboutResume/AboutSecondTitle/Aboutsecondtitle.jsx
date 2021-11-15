@@ -1,7 +1,8 @@
+import './Aboutsecondtitle.css';
+
 const Aboutsecondtitle = () => {
     return (
-        <h2>Your team of
-        professionals</h2>
+        <h2 className="aboutSecondTitle">Your team of professionals</h2>
     );
 }
 

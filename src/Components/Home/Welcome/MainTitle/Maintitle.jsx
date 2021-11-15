@@ -1,6 +1,8 @@
+import './Maintitle.css';
+
 const Maintitle = () => {
     return(
-        <h1>Welcome</h1>
+        <h1 className="mainTitle">Welcome</h1>
     );
 }
 

@@ -1,9 +1,14 @@
+import './Featureditem.css';
+import Linktopage from '../../../LinkToPage/Linktopage';
+
 const Featureditem = ({itemInfo, number}) => {
     return (
-        <div style={{backgroundImage:itemInfo.image}}>
+        <div className="featuredItem" style={{backgroundImage:`url(${itemInfo.image})`}}>
             <h1>{number}</h1>
-            <h4>{itemInfo.name}</h4>
-            <p>View All Projects</p>
+            <div>
+                <h4>{itemInfo.name}</h4>
+                <Linktopage path="./portfolio" text="View All Projects"/>
+            </div>
         </div>
     );
 }

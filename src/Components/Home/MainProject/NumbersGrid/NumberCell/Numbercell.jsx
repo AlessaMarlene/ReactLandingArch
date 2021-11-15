@@ -1,7 +1,9 @@
+import './Numbercell.css';
+
 const Numbercell = ({number}) => {
     return(
-        <div>
-            <p>{number}</p>
+        <div className="numberCell">
+            <h4>{number}</h4>
         </div>
     );
 }

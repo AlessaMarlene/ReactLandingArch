@@ -1,0 +1,20 @@
+.numbersGrid{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: -75px;
+}
+
+.numbersGrid > div:first-child{
+    background-color: black;
+}
+
+.numbersGrid > div:first-child > *{
+    color: white;
+}
+
+@media (max-width: 1000px){
+    .numbersGrid{
+        display: none;
+    }
+}

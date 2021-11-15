@@ -1,6 +1,6 @@
 const Aboutus = ({icon}) => {
     return (
-       <img alt="icon" src={icon}/>
+       <img className="icon" alt="icon" src={icon}/>
     );
 }
 

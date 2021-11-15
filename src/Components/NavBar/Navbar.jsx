@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Navbarlinks from './NavBarLinks/Navbarlinks';
 import Logo from '../Logo/Logo';
+import logoImage from '../../assets/logo/logo.svg';
 import Burger from './BurgerMenu/Burger';
 import './Navbar.css';
 
@@ -21,8 +22,8 @@ const Navbar = () => {
     }, []);
 
     return (
-        <nav>
-            <Logo/>
+        <nav className="navBar">
+            <Logo logoImage={logoImage}/>
             <Burger handleClick={handleClick}/>
             {(showMenu || width > 700) && <Navbarlinks/>}
         </nav>
