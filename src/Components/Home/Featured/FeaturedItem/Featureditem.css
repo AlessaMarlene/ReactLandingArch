@@ -38,3 +38,21 @@
     font-weight: 400;
     font-size: 0.8em;
 }
+
+@media(max-width: 1000px){
+    .featuredItem{
+        flex-direction: row-reverse;
+    }
+    .featuredItem > div{
+        align-self: flex-end;
+    }
+}
+
+@media(max-width: 700px){
+    .featuredItem{
+        flex-direction: row;
+    }
+    .featuredItem > h1{
+        display: none;
+    }
+}

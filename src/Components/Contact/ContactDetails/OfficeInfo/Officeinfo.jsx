@@ -7,17 +7,19 @@ const Officeinfo = ({office}) => {
             <b>{office.name}</b>
             <div className="officeInfoItems">
                 <div>
-                    <p>Mail:</p>
-                    <p>Address:</p>
-                    <p>Phone:</p>
+                    <div>
+                        <p>Mail:</p>
+                        <p>Address:</p>
+                        <p>Phone:</p>
+                    </div>
+                    <div>
+                        <p>{office.mail}</p>
+                        <p>{office.address}</p>
+                        <p>{office.phone}</p>
+                    </div>
                 </div>
-                <div>
-                    <p>{office.mail}</p>
-                    <p>{office.address}</p>
-                    <p>{office.phone}</p>
-                </div>
+                <Viewmap/>
             </div>
-            <Viewmap/>
         </div>
     );
 }

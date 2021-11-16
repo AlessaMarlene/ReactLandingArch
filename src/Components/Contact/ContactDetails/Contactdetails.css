@@ -11,7 +11,7 @@
 }
 
 .offices > div:first-child{
-    flex: 1 1 35%;
+    flex: 1 1 30%;
     position: relative;
 }
 
@@ -25,6 +25,36 @@
 }
 
 .offices > div:last-child{
-    flex: 1 1 65%;
+    flex: 1 1 70%;
     display: flex;
+}
+
+.map{
+    background-image: url('../../../assets/Contact/Desktop/image-map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 25em;
+}
+
+@media(max-width: 1000px){
+    .offices, .offices > div:last-child{
+        flex-direction: column;
+    }
+    .map{
+        background-image: url('../../../assets/Contact/Tablet/image-map.png');
+    }
+}
+
+@media(max-width: 700px){
+    .offices{
+        margin: 8em 0;
+        padding: 0 10%;
+    }
+    .offices > div:first-child > p{
+        display: none;
+    }
+    .map{
+        background-image: url('../../../assets/Contact/Mobile/image-map.png');
+    }
 }

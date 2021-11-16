@@ -10,6 +10,8 @@
 
 .contactBackImage{
     flex: 1 1 60%;
+    background-image: url('../../../assets/Contact/Desktop/image-hero.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     position: relative;
@@ -50,4 +52,33 @@
     background-color: var(--very-light-grey);
     margin-bottom: 70px;
     border-radius: 5px;
+}
+
+@media(max-width: 1000px){
+    .contactBackImage{
+        background-image: url('../../../assets/Contact/Tablet/image-hero.jpg');
+    }
+    .contactResumeContent{
+        width: 80%;
+    }
+}
+
+@media(max-width: 700px){
+    .contactResume{
+        height: 100vh;
+    }
+    .contactBackImage{
+        background-image: url('../../../assets/Contact/Mobile/image-hero.jpg');
+        height: 40%;
+    }
+    .whiteSide{
+        display: none;
+    }
+    .contactResumeContent{
+        width: 100%;
+        padding: 0 10%;
+    }
+    .contactResumeContent > p:first-of-type{
+        display: none;
+    }
 }

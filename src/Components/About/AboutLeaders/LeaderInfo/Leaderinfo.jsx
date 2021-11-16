@@ -12,7 +12,7 @@ const Leaderinfo = ({leader}) => {
            <h3>{leader.name}</h3>
            <p>{leader.position}</p>
            <div className="socialIcons">
-                {icons.map((icon) => <Socialicon icon={icon}/>)}
+                {icons.map((icon) => <Socialicon key={icon} icon={icon}/>)}
            </div>
        </div>
     );

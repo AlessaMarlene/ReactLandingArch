@@ -1,4 +1,3 @@
-import hero from '../../../assets/About/Desktop/image-hero.jpg';
 import Abouttitle from './AboutTitle/Abouttitle';
 import Aboutsecondtitle from './AboutSecondTitle/Aboutsecondtitle';
 import Resumecontent from './ResumeContent/Resumecontent';
@@ -8,7 +7,7 @@ const Aboutresume = () => {
     return (
         <section className="aboutResume">
             <div className="aboutResumeBackground" >
-                <div className="aboutBackImage" style={{backgroundImage:`url(${hero})`}}></div>
+                <div className="aboutBackImage"></div>
                 <div className="whiteSide">
                     <Abouttitle/>
                 </div>

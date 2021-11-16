@@ -3,3 +3,9 @@
     padding-bottom: 30px;
     line-height: 1em;
 }
+
+@media(max-width: 1000px){
+    .aboutSecondTitle{
+        width: 100%;
+    }
+}

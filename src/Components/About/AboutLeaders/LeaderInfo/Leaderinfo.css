@@ -15,3 +15,15 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media(max-width: 1000px){
+    .leaderInfo img{
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px){
+    .leaderInfo{
+        width: 100%;
+    }
+}

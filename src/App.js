@@ -19,8 +19,8 @@ function App() {
                 <Route element={<Contact/>} path='/contact'/>
                 <Route path="*" element={<Home/>}/>
             </Routes>
-            <Footer/>
         </div>
+        <Footer/>
     </BrowserRouter>
   );
 }

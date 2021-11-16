@@ -1,6 +1,8 @@
 .banner{
     height: 110vh;
+    background-image: url('../../../../assets/Home/Desktop/image-hero-paramour-desktop.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
     color: white;
     display: flex;
@@ -12,5 +14,13 @@
 @media (max-width: 1000px){
     .banner{
         padding-left: 10%;
+        background-image: url('../../../../assets/Home/Tablet/image-hero-paramour-tablet.jpg');
+    }
+}
+
+@media (max-width: 700px){
+    .banner{
+        background-image: url('../../../../assets/Home/Mobile/image-hero-paramour-mobile.jpg');
+        padding: 0 10%;
     }
 }

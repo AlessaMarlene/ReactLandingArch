@@ -10,3 +10,19 @@
     justify-content: space-between;
     row-gap: 60px;
 }
+
+@media(max-width: 1000px){
+    .aboutLeaders{
+        flex-direction: column;
+    }
+    .leadersList{
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px){
+    .aboutLeaders{
+        padding: 0 10%;
+        margin-bottom: 8em;
+    }
+}

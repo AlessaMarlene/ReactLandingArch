@@ -1,4 +1,3 @@
-import phone from '../../../assets/Contact/Desktop/image-hero.jpg';
 import Contacttitle from './ContactTitle/Contacttitle';
 import Contactsecondtitle from './ContactSecondTitle/Contactsecondtitle';
 import Contactcontent from './ContactContent/Contactcontent';
@@ -8,7 +7,7 @@ const Contactresume = () => {
     return (
         <section className="contactResume">
             <div className="contactResumeBackground">
-                <div className="contactBackImage" style={{backgroundImage:`url(${phone})`}}></div>
+                <div className="contactBackImage"></div>
                 <div className="whiteSide">
                     <Contacttitle/>
                 </div>

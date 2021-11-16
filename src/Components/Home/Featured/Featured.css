@@ -1,5 +1,5 @@
 .featured{
-    margin: 9.5em 0;
+    margin: 8em 0;
     height: 100vh;
 }
 
@@ -24,10 +24,20 @@
     }
     .featured > div:last-child{
         flex-direction: column;
-        height: auto;
     }
 
     .featured > div:last-child > *{
         width: 100%;
+        margin: 20px 0;
+        padding: 60px 40px;
+    }
+}
+
+@media (max-width: 700px){
+    .featured{
+        padding: 0 10%;
+    }
+    .featured > div:last-child > *{
+        padding: 20% 10%;
     }
 }

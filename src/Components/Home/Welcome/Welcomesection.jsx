@@ -1,7 +1,7 @@
 import Maintitle from "./MainTitle/Maintitle";
 import Secondtitle from "./SecondTitle/Secondtitle";
 import Welcomecontent from "./WelcomeContent/Welcomecontent";
-import welcomeImage from "../../../assets/Home/Desktop/image-welcome.jpg";
+import welcomeImage from "../../../assets/Home/Desktop/image-welcome-desktop.jpg";
 import './Welcomesection.css';
 
 const Welcome = () => {

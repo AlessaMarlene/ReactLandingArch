@@ -42,3 +42,24 @@
 .connectForm button img{
     width: 20px;
 }
+
+@media(max-width: 1000px){
+    .connectForm{
+        width: 100%;
+    }
+    .connectForm button{
+        width: auto;
+    }
+}
+
+@media(max-width: 700px){
+    ::placeholder{
+        font-size: 1.2em;
+    }
+    .connectForm input{
+        margin-bottom: 20px;
+    }
+    .connectForm button{
+        padding: 20px;
+    }
+}

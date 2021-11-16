@@ -19,12 +19,15 @@ const Navbar = () => {
 
     useEffect(() => {
         window.addEventListener('resize', handleSizeChange);
+        return () => {
+            window.removeEventListener('resize', handleSizeChange);
+        }
     }, []);
 
     return (
         <nav className="navBar">
             <Logo logoImage={logoImage}/>
-            <Burger handleClick={handleClick}/>
+            <Burger handleClick={handleClick} showedMenu={showMenu}/>
             {(showMenu || width > 700) && <Navbarlinks/>}
         </nav>
     );

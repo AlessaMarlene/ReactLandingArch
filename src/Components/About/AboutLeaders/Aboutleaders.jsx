@@ -8,7 +8,7 @@ const Aboutleaders = () => {
        <section className="aboutLeaders">
            <Leaderstitle/>
            <div className="leadersList">
-                {leaders.map((leader) => <Leaderinfo leader={leader}/>)}
+                {leaders.map((leader) => <Leaderinfo key={leader.name} leader={leader}/>)}
            </div>
        </section>
     );

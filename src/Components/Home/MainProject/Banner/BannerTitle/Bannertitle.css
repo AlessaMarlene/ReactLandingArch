@@ -10,3 +10,9 @@
         font-size: 5em;
     }
 }
+
+@media (max-width: 700px){
+    .bannerTitle{
+        font-size: 5.5em;
+    }
+}

@@ -4,3 +4,10 @@
     left: -40%;
     top: 5%;
 }
+
+@media(max-width: 1000px){
+    .aboutTitle{
+        left: -90%;
+        top: 20%;
+    }
+}

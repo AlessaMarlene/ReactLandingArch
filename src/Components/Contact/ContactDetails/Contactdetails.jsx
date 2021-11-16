@@ -1,7 +1,6 @@
 import contacts from "../../../data/contacts";
 import Detailstitle from "./DetailsTitle/Detailstitle";
 import Officeinfo from "./OfficeInfo/Officeinfo";
-import map from "../../../assets/Contact/Desktop/image-map.png";
 import "./Contactdetails.css";
 
 const Contactdetails = () => {
@@ -13,10 +12,10 @@ const Contactdetails = () => {
                     <Detailstitle/>
                 </div>
                 <div>
-                    {contacts.map((contact) => <Officeinfo office={contact}/>)}
+                    {contacts.map((contact) => <Officeinfo key={contact.name} office={contact}/>)}
                 </div>
             </div>
-            <img alt="map" src={map}/>
+            <div className="map"></div>
         </section>
     );
 }

@@ -1,12 +1,11 @@
 import Bannertitle from "./BannerTitle/Bannertitle";
 import Bannercontent from "./BannerContent/Bannercontent";
 import Commonlink from "../../CommonLink/Commonlink";
-
 import './Banner.css';
 
 const Banner = () => {
     return(
-        <div className="banner" style={{backgroundImage:`url("${paramour}")`}}>
+        <div className="banner">
             <Bannertitle/>
             <Bannercontent/>
             <Commonlink text="See Our Portfolio" pageName="/portfolio"/>

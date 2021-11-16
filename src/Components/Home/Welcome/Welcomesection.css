@@ -13,10 +13,29 @@
 }
 
 @media(max-width: 1000px){
+    .welcomeSection{
+        height:auto;
+        margin: 8em 0;
+    }
     .welcomeSection > div{
         padding: 0;
     }
     .welcomeSection > img{
         display: none;
+    }
+}
+
+@media(max-width: 700px){
+    .welcomeSection{
+        padding: 0 10%;
+        position: relative;
+    }
+    .welcomeSection > p{
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        background-color: var(--very-light-grey);
+        border-radius: 5px;
+        top: -50px;
     }
 }

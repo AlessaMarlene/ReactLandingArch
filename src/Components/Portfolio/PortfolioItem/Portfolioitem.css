@@ -30,3 +30,10 @@
 .portfolioItem p{
     font-size: 0.9em;
 }
+
+@media(max-width: 1000px){
+    .portfolioItem{
+        width: auto;
+        height: 18em;
+    }
+}

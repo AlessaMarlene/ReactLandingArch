@@ -9,3 +9,22 @@
     display: flex;
     align-items: center;
 }
+
+@media(max-width: 1000px){
+    .footerLinks{
+        padding: 40px;
+        width: 53%;
+    }
+}
+
+@media(max-width: 700px){
+    .footerLinks{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    .footerLinks > *{
+        justify-content: center;
+        margin: 20px 0;
+    }
+}

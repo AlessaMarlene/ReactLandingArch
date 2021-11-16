@@ -3,7 +3,7 @@ import jake from '../assets/About/Desktop/avatar-jake.jpg';
 import maria from '../assets/About/Desktop/avatar-maria.jpg';
 import thompson from '../assets/About/Desktop/avatar-thompson.jpg';
 
-export default [
+const leaders = [
     {
         name:'Jake Richards',
         image:jake,
@@ -25,3 +25,5 @@ export default [
         position:'Senior Architect'
     }
 ]
+
+export default leaders;

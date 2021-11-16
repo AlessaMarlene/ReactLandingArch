@@ -16,3 +16,24 @@
     margin-bottom: 80px;
     border-radius: 5px;
 }
+
+@media(max-width: 1000px){
+    .heritage{
+        margin: 8em 0;
+    }
+    .heritage > img{
+        display: none;
+    }
+    .heritageInfo > p:first-of-type{
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width: 700px){
+    .heritage{
+        padding: 0 10%;
+    }
+    .heritageInfo > p:first-of-type{
+        display: none;
+    }
+}

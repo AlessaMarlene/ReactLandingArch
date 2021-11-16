@@ -6,3 +6,9 @@
     width: 50%;
     line-height: 1em;
 }
+
+@media(max-width: 1000px){
+    .leadersTitle{
+        margin-bottom: 60px;
+    }
+}

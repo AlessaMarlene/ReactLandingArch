@@ -1,4 +1,4 @@
-export default [
+const contacts = [
     {
         name: 'Main Office',
         mail: 'archone@mail.com',
@@ -12,3 +12,5 @@ export default [
         phone: '832-145-4321'
     }
 ]
+
+export default contacts;
